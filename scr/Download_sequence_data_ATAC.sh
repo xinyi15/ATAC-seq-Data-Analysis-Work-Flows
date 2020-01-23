@@ -12,7 +12,7 @@
 
 module load sratoolkit/2.9.6
 
-for run in <Run Accessions> #eg:SRR5385305 SRR5385306 SRR5385307
+for run in <Run Accessions> #eg:SRR5385305 SRR5385306 SRR5385307 
 do
         #fastq-dump --gzip --split-files $run 
         fastq-dump $run
